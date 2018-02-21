@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48717bc1-98bf-435f-98d7-b6d88fb9632d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/abstract factory/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/adapter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bridge/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builder/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chain of refs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/command/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/composite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/decorator/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/facade/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/factory method/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flyweight/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/interpreter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iterator/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mediator/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/memento/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/observer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototype/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/singleton/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/state/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/strategy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template method/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/visitor/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adapter/adapter.js" afterPath="$PROJECT_DIR$/adapter/adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bridge/bridge.js" afterPath="$PROJECT_DIR$/bridge/bridge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/builder.js" afterPath="$PROJECT_DIR$/builder/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chain of refs/chain_of_refs.js" afterPath="$PROJECT_DIR$/chain of refs/chain_of_refs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/command.js" afterPath="$PROJECT_DIR$/command/command.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composite/composite.js" afterPath="$PROJECT_DIR$/composite/composite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decorator/decorator.js" afterPath="$PROJECT_DIR$/decorator/decorator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facade/facade.js" afterPath="$PROJECT_DIR$/facade/facade.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factory method/factory_method.js" afterPath="$PROJECT_DIR$/factory method/factory_method.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flyweight/flyweight.js" afterPath="$PROJECT_DIR$/flyweight/flyweight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interpreter/interpreter.js" afterPath="$PROJECT_DIR$/interpreter/interpreter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iterator/iterator.js" afterPath="$PROJECT_DIR$/iterator/iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediator/mediator.js" afterPath="$PROJECT_DIR$/mediator/mediator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memento/memento.js" afterPath="$PROJECT_DIR$/memento/memento.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observer/observer.js" afterPath="$PROJECT_DIR$/observer/observer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype/prototype.js" afterPath="$PROJECT_DIR$/prototype/prototype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy/proxy.js" afterPath="$PROJECT_DIR$/proxy/proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singleton/singleton.js" afterPath="$PROJECT_DIR$/singleton/singleton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state/state.js" afterPath="$PROJECT_DIR$/state/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategy/strategy.js" afterPath="$PROJECT_DIR$/strategy/strategy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template method/template_method.js" afterPath="$PROJECT_DIR$/template method/template_method.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/visitor/visitor.js" afterPath="$PROJECT_DIR$/visitor/visitor.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="prototype.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype/prototype.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy/proxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singleton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singleton/singleton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="state.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state/state.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strategy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/strategy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template_method.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template method/template_method.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visitor/visitor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composite/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/decorator/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-34">
+                <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/adapter/adapter.js" />
+        <option value="$PROJECT_DIR$/bridge/bridge.js" />
+        <option value="$PROJECT_DIR$/builder/builder.js" />
+        <option value="$PROJECT_DIR$/chain of refs/chain_of_refs.js" />
+        <option value="$PROJECT_DIR$/command/command.js" />
+        <option value="$PROJECT_DIR$/composite/composite.js" />
+        <option value="$PROJECT_DIR$/decorator/decorator.js" />
+        <option value="$PROJECT_DIR$/facade/facade.js" />
+        <option value="$PROJECT_DIR$/factory method/factory_method.js" />
+        <option value="$PROJECT_DIR$/flyweight/flyweight.js" />
+        <option value="$PROJECT_DIR$/interpreter/interpreter.js" />
+        <option value="$PROJECT_DIR$/iterator/iterator.js" />
+        <option value="$PROJECT_DIR$/mediator/mediator.js" />
+        <option value="$PROJECT_DIR$/memento/memento.js" />
+        <option value="$PROJECT_DIR$/observer/observer.js" />
+        <option value="$PROJECT_DIR$/prototype/prototype.js" />
+        <option value="$PROJECT_DIR$/proxy/proxy.js" />
+        <option value="$PROJECT_DIR$/singleton/singleton.js" />
+        <option value="$PROJECT_DIR$/state/state.js" />
+        <option value="$PROJECT_DIR$/strategy/strategy.js" />
+        <option value="$PROJECT_DIR$/template method/template_method.js" />
+        <option value="$PROJECT_DIR$/visitor/visitor.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="chain of refs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="factory method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="template method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/../../project/uiinternship/node_modules/eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/../../project/uiinternship/node_modules/eslint" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48717bc1-98bf-435f-98d7-b6d88fb9632d" name="Default" comment="" />
+      <created>1519224826454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519224826454</updated>
+      <workItem from="1519224827763" duration="1058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1058000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/abstract factory/abstract_factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract factory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bridge/bridge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-804">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/builder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chain of refs/chain_of_refs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/command.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite/composite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/decorator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade/facade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory method/factory_method.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flyweight/flyweight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interpreter/interpreter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/iterator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mediator/mediator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memento/memento.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observer/observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype/prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/singleton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/strategy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template method/template_method.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor/visitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-34">
+            <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

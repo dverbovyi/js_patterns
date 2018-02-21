@@ -1,65 +1,71 @@
-class Shop{
-	construct(builder){
+class Shop {
+	construct(builder) {
 		builder.step1();
 		builder.step2();
 		return builder.get();
 	}
 }
 
-class CarBuilder{
-	constructor(){
+class CarBuilder {
+	constructor() {
 		this.car = null;
 	}
 
-	step1(){
+	step1() {
 		this.car = new Car();
 	}
-	step2(){
+
+	step2() {
 		this.car.addParts();
 	}
-	get(){
+
+	get() {
 		return this.car;
 	}
 }
 
-class TruckBuilder{
-	constructor(){
+class TruckBuilder {
+	constructor() {
 		this.truck = null;
 	}
 
-	step1(){
+	step1() {
 		this.truck = new Truck();
 	}
-	step2(){
+
+	step2() {
 		this.truck.addParts();
 	}
-	get(){
+
+	get() {
 		return this.truck;
 	}
 }
 
-class Car{
-	constructor(){
+class Car {
+	constructor() {
 		this.doors = 0;
 	}
 
-	addParts(){
+	addParts() {
 		this.doors = 4;
 	}
-	say(){
+
+	say() {
 		console.log(`I am a ${this.doors}-door car.`)
 	}
 }
 
-class Truck{
-	constructor(){
+class Truck {
+	constructor() {
 		this.doors = 0;
 	}
 
-	addParts(){
+	addParts() {
 		this.doors = 2;
 	}
-	say(){
+
+	say() {
 		console.log(`I am a ${this.doors}-door truck.`);
 	}
 }

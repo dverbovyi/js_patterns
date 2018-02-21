@@ -1,42 +1,42 @@
-class Shipping{
-	request(){
+class Shipping {
+	request() {
 		return '$49.75';
 	}
 }
 
-class AdvancedShipping{
-	setStart(start){
+class AdvancedShipping {
+	setStart(start) {
 		console.log(`Start from ${start}`)
 	}
 
-	setDestination(destination){
+	setDestination(destination) {
 		console.log(`Destination: ${destination}`);
 	}
 
-	calculate(){
+	calculate() {
 		return '$39.50'
 	}
 
 }
 
-class ShippingAdapter{
-	constructor(credentials){
+class ShippingAdapter {
+	constructor(credentials) {
 		this.credentials = credentials;
 		this.shipping = new AdvancedShipping();
 	}
 
-	request(zipStart, zipEnd){
+	request(zipStart, zipEnd) {
 		this.shipping.setStart(zipStart);
 		this.shipping.setDestination(zipEnd);
 		return this.shipping.calculate()
-}
+	}
 }
 
 
 function run() {
 	const shipping = new Shipping(),
-	credentials = {token: "30a8-6ee1"},
-	adapter = new ShippingAdapter(credentials);
+		credentials = {token: "30a8-6ee1"},
+		adapter = new ShippingAdapter(credentials);
 
 	let cost = shipping.request();
 	console.log(`Old cost: ${cost}`);

@@ -1,24 +1,24 @@
-class Click{
-	constructor(){
+class Click {
+	constructor() {
 		this.handlers = [];
 	}
 
-	subscribe(fn){
+	subscribe(fn) {
 		this.handlers.push(fn);
 	}
 
-	unsubscribe(fn){
-		this.handlers = this.handlers.filter((item)=>{
-			if(item !== fn){
+	unsubscribe(fn) {
+		this.handlers = this.handlers.filter((item) => {
+			if (item !== fn) {
 				return item;
 			}
 		})
 	}
 
-	fire(object, thisObj){
+	fire(object, thisObj) {
 		const scope = thisObj || window;
 		this.handlers.forEach((item) => {
-			item.call(scope,object);
+			item.call(scope, object);
 		})
 	}
 }

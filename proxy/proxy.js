@@ -1,5 +1,5 @@
-class GeoCoder{
-	getLatLng(address){
+class GeoCoder {
+	getLatLng(address) {
 		if (address === 'Amsterdam') {
 			return '52.3700° N, 4.8900° E';
 		} else if (address === "London") {
@@ -14,23 +14,25 @@ class GeoCoder{
 	}
 }
 
-class GeoProxy{
-	constructor(){
+class GeoProxy {
+	constructor() {
 		this.geoCoder = new GeoCoder();
 		this.geoCache = {};
 	}
 
-	getLatLng(address){
+	getLatLng(address) {
 		if (!this.geoCache[address]) {
 			this.geoCache[address] = this.geoCoder.getLatLng(address);
-			}
-			console.log(`Address: ${this.geoCache[address]}`);
-			return this.geoCache[address];
+		}
+		console.log(`Address: ${this.geoCache[address]}`);
+		return this.geoCache[address];
 	}
 
-	getCount(){
+	getCount() {
 		let count = 0;
-		for (let code in this.geoCache) { count++; }
+		for (let code in this.geoCache) {
+			count++;
+		}
 		return count;
 	}
 }

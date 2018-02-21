@@ -41,5 +41,3 @@ function run() {
 
 	console.log(result);
 }
-
-run();

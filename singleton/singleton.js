@@ -22,5 +22,3 @@ function run() {
 
 	console.log(`Same instance? ${instance1 === instance2}`);
 }
-
-run();

@@ -1,5 +1,5 @@
 const datastore = {
-	process: function() {
+	process: function () {
 		this.connect();
 		this.select();
 		this.disconnect();
@@ -7,8 +7,8 @@ const datastore = {
 	}
 };
 
-function  inherit(proto) {
-	let F = function(){};
+function inherit(proto) {
+	let F = function () {};
 	F.prototype = proto;
 	return new F();
 }
@@ -16,15 +16,15 @@ function  inherit(proto) {
 function run() {
 	const mySql = inherit(datastore);
 
-	mySql.connect = function() {
+	mySql.connect = function () {
 		console.log('MySQL: connect step');
 	};
 
-	mySql.select = function() {
+	mySql.select = function () {
 		console.log('MySQL: select step');
 	};
 
-	mySql.disconnect = function() {
+	mySql.disconnect = function () {
 		console.log('MySQL: disconnect step');
 	};
 

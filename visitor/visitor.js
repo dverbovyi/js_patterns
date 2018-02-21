@@ -1,57 +1,57 @@
-class Employee{
-	constructor(name, salary, vacation){
+class Employee {
+	constructor(name, salary, vacation) {
 		this.name = name;
 		this.salary = salary;
 		this.vacation = vacation;
 		this.self = this;
 	}
 
-	accept(visitor){
+	accept(visitor) {
 		visitor.visit(this.self);
 	}
 
-	getName(){
+	getName() {
 		return this.name;
 	}
 
-	getSalary(){
+	getSalary() {
 		return this.salary;
 	}
 
-	setSalary(sal){
+	setSalary(sal) {
 		this.salary = sal;
 	}
 
-	getVacation(){
+	getVacation() {
 		return this.vacation;
 	}
 
-	setVacation(vac){
+	setVacation(vac) {
 		this.vacation = vac;
 	}
 
 }
 
-class ExtraSalary{
-	visit(emp){
+class ExtraSalary {
+	visit(emp) {
 		emp.setSalary(emp.getSalary() * 1.1);
 	}
 }
 
-class ExtraVacation{
-	visit(emp){
+class ExtraVacation {
+	visit(emp) {
 		emp.setVacation(emp.getVacation() + 2);
 	}
 }
 
 function run() {
 	const employees = [
-		new Employee("John", 10000, 10),
-		new Employee("Mary", 20000, 21),
-		new Employee("Boss", 250000, 51)
-	],
-	visitorSalary = new ExtraSalary(),
-	visitorVacation = new ExtraVacation();
+			new Employee("John", 10000, 10),
+			new Employee("Mary", 20000, 21),
+			new Employee("Boss", 250000, 51)
+		],
+		visitorSalary = new ExtraSalary(),
+		visitorVacation = new ExtraVacation();
 
 	employees.forEach(employee => {
 		employee.accept(visitorSalary);

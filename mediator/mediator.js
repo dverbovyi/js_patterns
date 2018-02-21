@@ -1,34 +1,34 @@
-class Participant{
-	constructor(name){
+class Participant {
+	constructor(name) {
 		this.name = name;
 		this.chatroom = null;
 	}
 
-	send(message,receiver){
+	send(message, receiver) {
 		this.chatroom.send(message, this, receiver);
 	}
 
-	receive(message, sender){
+	receive(message, sender) {
 		console.log(`${sender.name} receiver ${this.name} : ${message}`);
 	}
 }
 
-class Chatroom{
-	constructor(){
+class Chatroom {
+	constructor() {
 		this.participants = {};
 	}
 
-	register(participant){
+	register(participant) {
 		this.participants[participant.name] = participant;
 		participant.chatroom = this;
 	}
 
-	send(message, sender, receiver){
-		if(receiver){
-			receiver.receive(message,sender);
-		}else{
-			for(let key in this.participants){
-				if(this.participants[key] !== sender){
+	send(message, sender, receiver) {
+		if (receiver) {
+			receiver.receive(message, sender);
+		} else {
+			for (let key in this.participants) {
+				if (this.participants[key] !== sender) {
 					this.participants[key].receive(message, sender);
 				}
 			}
@@ -38,11 +38,11 @@ class Chatroom{
 
 function run() {
 	const yoko = new Participant('Yoko'),
-		  john = new Participant('John'),
-		  paul = new Participant('Paul'),
-		  ringo = new Participant('Ringo'),
-		  chatroom = new Chatroom();
-	
+		john = new Participant('John'),
+		paul = new Participant('Paul'),
+		ringo = new Participant('Ringo'),
+		chatroom = new Chatroom();
+
 	chatroom.register(yoko);
 	chatroom.register(john);
 	chatroom.register(paul);

@@ -1,22 +1,22 @@
-class User{
-	constructor(name){
+class User {
+	constructor(name) {
 		this.name = name;
 	}
 
-	say(){
+	say() {
 		console.log(`User: ${this.name}`);
 	}
 }
 
-class DecoratedUser{
-	constructor(user, street, city){
+class DecoratedUser {
+	constructor(user, street, city) {
 		this.user = user;
 		this.name = user.name;
 		this.street = street;
 		this.city = city;
 	}
 
-	say(){
+	say() {
 		console.log(`Decorated user: ${this.name}, city: ${this.city}, street: ${this.street}`);
 	}
 

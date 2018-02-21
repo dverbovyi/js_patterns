@@ -1,46 +1,46 @@
-class Factory{
-	createEmployee(type){
+class Factory {
+	createEmployee(type) {
 		let employee;
 
-		if(type === 'Fulltime'){
+		if (type === 'Fulltime') {
 			employee = new FullTime();
-		}else if(type === 'Parttime'){
+		} else if (type === 'Parttime') {
 			employee = new PartTime();
-		}else if(type === 'Temporary'){
+		} else if (type === 'Temporary') {
 			employee = new Temporary();
-		}else if(type === 'Contractor'){
+		} else if (type === 'Contractor') {
 			employee = new Contractor();
 		}
 
 		employee.type = type;
 
-		employee.say = function() {
+		employee.say = function () {
 			console.log(`${this.type}: rate ${this.hourly}/hour`)
 		}
 		return employee;
 	}
 }
 
-class FullTime{
-	constructor(){
+class FullTime {
+	constructor() {
 		this.hourly = '$12';
 	}
 }
 
-class PartTime{
-	constructor(){
+class PartTime {
+	constructor() {
 		this.hourly = '$6'
 	}
 }
 
-class Temporary{
-	constructor(){
+class Temporary {
+	constructor() {
 		this.hourly = '$10';
 	}
 }
 
-class Contractor{
-	constructor(){
+class Contractor {
+	constructor() {
 		this.hourly = '$15';
 	}
 }

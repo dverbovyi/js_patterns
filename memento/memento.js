@@ -1,17 +1,17 @@
-class Person{
-	constructor(name, street, city, state){
+class Person {
+	constructor(name, street, city, state) {
 		this.name = name;
 		this.street = street;
 		this.city = city;
 		this.state = state;
 	}
 
-	hydrate(){
+	hydrate() {
 		const memento = JSON.stringify(this);
 		return memento;
 	}
 
-	dehydrate(memento){
+	dehydrate(memento) {
 		const m = JSON.parse(memento);
 		this.name = m.name;
 		this.street = m.street;
@@ -20,34 +20,34 @@ class Person{
 	}
 }
 
-class CareTaker{
-	constructor(){
-		this.mementos ={};
+class CareTaker {
+	constructor() {
+		this.mementos = {};
 	}
 
-	add(key, memento){
+	add(key, memento) {
 		this.mementos[key] = memento;
 	}
 
-	get(key){
+	get(key) {
 		return this.mementos[key];
 	}
 }
 
 function run() {
 	const mike = new Person('Mike Foley', '1112 Main', 'Dallas', 'TX'),
-		  john = new Person('John Wang', '48th Street', 'San Jose', 'CA'),
-	      caretaker = new CareTaker();
+		john = new Person('John Wang', '48th Street', 'San Jose', 'CA'),
+		caretaker = new CareTaker();
 
-	// save state
+
 	caretaker.add(1, mike.hydrate());
 	caretaker.add(2, john.hydrate());
 
-	// mess up their names
+
 	mike.name = "King Kong";
 	john.name = "Superman";
 
-	// restore original state
+
 	mike.dehydrate(caretaker.get(1));
 	john.dehydrate(caretaker.get(2));
 

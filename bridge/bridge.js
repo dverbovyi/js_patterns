@@ -1,67 +1,78 @@
-class Gestures{
-	constructor(output){
+class Gestures {
+	constructor(output) {
 		this.output = output;
 	}
 
-	tap(){
+	tap() {
 		this.output.click();
 	}
-	swipe(){
+
+	swipe() {
 		this.output.move();
 	}
-	pan(){
+
+	pan() {
 		this.output.drag();
 	}
-	pinch(){
+
+	pinch() {
 		this.output.zoom();
 	}
 }
 
 
-class Mouse{
-	constructor(output){
+class Mouse {
+	constructor(output) {
 		this.output = output;
 	}
 
-	click(){
+	click() {
 		this.output.click();
 	}
-	move(){
+
+	move() {
 		this.output.move();
 	}
-	wheel(){
+
+	wheel() {
 		this.output.zoom();
 	}
 }
 
 
-class Screen{
-	click(){
+class Screen {
+	click() {
 		console.log('Screen select');
 	}
-	move(){
+
+	move() {
 		console.log('Screen move');
 	}
-	drag(){
+
+	drag() {
 		console.log('Screen drag');
 	}
-	zoom(){
+
+	zoom() {
 		console.log('Screen zoom in');
 	}
 }
 
 
-class Audio{
-	click(){
+class Audio {
+	click() {
 		console.log('Sound oink');
 	}
-	move(){
+
+	move() {
 		console.log('Sound waves');
 	}
-	drag(){
+
+	drag() {
 		console.log('Sound screetch');
 	}
-	zoom(){
+
+	zoom() {
 		console.log('Sound volume up');
 	}
 }
@@ -69,9 +80,9 @@ class Audio{
 
 function run() {
 	const screen = new Screen(),
-		  audio = new Audio(),
-		  hand = new Gestures(screen),
-		  mouse = new Mouse(audio);
+		audio = new Audio(),
+		hand = new Gestures(screen),
+		mouse = new Mouse(audio);
 
 	hand.pan();
 	hand.pinch();

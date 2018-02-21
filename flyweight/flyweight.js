@@ -46,8 +46,8 @@ class ComputerCollection {
 	}
 }
 
-class Computer{
-	constructor(make, model, processor, memory, tag){
+class Computer {
+	constructor(make, model, processor, memory, tag) {
 		this.make = make;
 		this.model = model;
 		this.processor = processor;

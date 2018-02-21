@@ -1,29 +1,29 @@
-class Node{
-	constructor(name){
+class Node {
+	constructor(name) {
 		this.name = name;
 		this.children = [];
 	}
 
-	add(child){
+	add(child) {
 		this.children.push(child);
 	}
 
-	remove(child){
+	remove(child) {
 		let length = this.children.length;
-		for(let i=0;i<length;i++){
-			if(this.children[i] === child){
-				this.children.splice(i,1);
+		for (let i = 0; i < length; i++) {
+			if (this.children[i] === child) {
+				this.children.splice(i, 1);
 				return;
 			}
 		}
 	}
 
-	getChild(i){
+	getChild(i) {
 		return this.children[i];
 	}
 
-	hasChildren(){
-		return this.children.length>0;
+	hasChildren() {
+		return this.children.length > 0;
 	}
 }
 
@@ -37,12 +37,12 @@ function traverse(indent, node) {
 
 function run() {
 	const tree = new Node("root"),
-		  left = new Node("left"),
-		  right = new Node("right"),
-		  leftleft = new Node("leftleft"),
-		  leftright = new Node("leftright"),
-		  rightleft = new Node("rightleft"),
-		  rightright = new Node("rightright");
+		left = new Node("left"),
+		right = new Node("right"),
+		leftleft = new Node("leftleft"),
+		leftright = new Node("leftright"),
+		rightleft = new Node("rightleft"),
+		rightright = new Node("rightright");
 
 	tree.add(left);
 	tree.add(right);

@@ -55,6 +55,7 @@ class ATM {
 		return this;
 	}
 }
+
 const atm = new ATM();
 
 atm.withdraw(186).withdraw(72);
