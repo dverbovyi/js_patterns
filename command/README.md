@@ -31,4 +31,4 @@ COMMAND
    
 UML Diagram
 -----------
-![](../screenshots/command)       
+![](../screenshots/command.png)       

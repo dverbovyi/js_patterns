@@ -36,7 +36,7 @@ STRATEGY
     
 UML Diagram
 -----------
-![](../screenshots/strategy)    
+![](../screenshots/strategy.png)    
 
     
 

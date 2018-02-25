@@ -39,4 +39,4 @@ SINGLETON
    
 UML Diagram
 -----------
-![](../screenshots/singleton)      
+![](../screenshots/singleton.png)      

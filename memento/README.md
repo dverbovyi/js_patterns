@@ -35,7 +35,7 @@ MEMENTO
 
 UML Diagram
 -----------
-![](../screenshots/memento)    
+![](../screenshots/memento.png)    
 
     
   

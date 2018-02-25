@@ -29,7 +29,7 @@ INTERPRETER
 UML Diagram
 -----------
 
-![](../screenshots/interpreter)  
+![](../screenshots/interpreter.png)  
     
     
 

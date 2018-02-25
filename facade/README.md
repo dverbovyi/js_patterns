@@ -26,5 +26,5 @@ FACADE PATTERN
 UML Diagram
 -----------
 
-![](../screenshots/facade)  
+![](../screenshots/facade.png)  
   

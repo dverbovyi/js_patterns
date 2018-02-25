@@ -72,4 +72,4 @@ VISITOR
    
 UML Diagram
 -----------
-![](../screenshots/visitor)      
+![](../screenshots/visitor.png)      

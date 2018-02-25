@@ -25,4 +25,4 @@ PROTOTYPE
    
 UML Diagram
 -----------
-![](../screenshots/prototype)      
+![](../screenshots/prototype.png)      

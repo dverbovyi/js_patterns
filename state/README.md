@@ -43,4 +43,4 @@ STATE
    
 UML Diagram
 -----------
-![](../screenshots/state)   
+![](../screenshots/state.png)   

@@ -60,7 +60,7 @@ MEDIATOR
    
 UML Diagram
 -----------
-![](../screenshots/mediator)   
+![](../screenshots/mediator.png)   
     
     
 

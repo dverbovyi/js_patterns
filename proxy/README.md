@@ -40,6 +40,6 @@ There are four common situations in which the Proxy pattern is applicable.
 
 UML Diagram
 -----------
-![](../screenshots/proxy)  
+![](../screenshots/proxy.png)  
 
       

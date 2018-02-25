@@ -61,7 +61,7 @@ aStream->putString( "Hello world" );
     
 UML Diagram
 -----------
-![](../screenshots/decorator)    
+![](../screenshots/decorator.png)    
         
 
 

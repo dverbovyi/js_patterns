@@ -34,6 +34,7 @@ COMPOSITE
    versus 'transparency' issues.
    
 UML Diagram
+-----------
 
-![](../screenshots/composite)   
+![](../screenshots/composite.png)   
        

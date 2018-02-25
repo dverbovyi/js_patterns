@@ -39,4 +39,4 @@ OBSERVER
    
 UML Diagram
 -----------
-![](../screenshots/observer)      
+![](../screenshots/observer.png)      

@@ -42,5 +42,5 @@ ITERATOR
    
 UML Diagram
 -----------
-![](../screenshots/iterator)   
+![](../screenshots/iterator.png)   
     

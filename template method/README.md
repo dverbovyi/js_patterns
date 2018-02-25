@@ -37,5 +37,5 @@ TEMPLATE METHOD
    
 UML Diagram
 -----------
-![](../screenshots/template)   
+![](../screenshots/template.png)   
       

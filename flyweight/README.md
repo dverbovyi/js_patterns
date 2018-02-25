@@ -32,4 +32,4 @@ FLYWEIGHT
    
 UML Diagram
 -----------
-![](../screenshots/flyweight)   
+![](../screenshots/flyweight.png)   
