@@ -112,8 +112,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <first_editor relative-caret-position="459">
+                <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -246,86 +246,6 @@
             <path>
               <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstract factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="chain of refs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="composite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="factory method" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="iterator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="mediator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="memento" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="prototype" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -406,12 +326,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519224826454</updated>
       <workItem from="1519224827763" duration="1261000" />
-      <workItem from="1519419319172" duration="7106000" />
+      <workItem from="1519419319172" duration="7568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8367000" />
+    <option name="totallyTimeSpent" value="8829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -912,8 +832,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <first_editor relative-caret-position="459">
+            <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
