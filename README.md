@@ -1,1 +1,1 @@
-# js_patterns
+# Design patterns js implementation
