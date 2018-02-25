@@ -3,28 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48717bc1-98bf-435f-98d7-b6d88fb9632d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstract factory/README.md" afterPath="$PROJECT_DIR$/abstract factory/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adapter/README.md" afterPath="$PROJECT_DIR$/adapter/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bridge/README.md" afterPath="$PROJECT_DIR$/bridge/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/README.md" afterPath="$PROJECT_DIR$/builder/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chain of refs/README.md" afterPath="$PROJECT_DIR$/chain of refs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/README.md" afterPath="$PROJECT_DIR$/command/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composite/README.md" afterPath="$PROJECT_DIR$/composite/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decorator/README.md" afterPath="$PROJECT_DIR$/decorator/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/facade/README.md" afterPath="$PROJECT_DIR$/facade/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factory method/README.md" afterPath="$PROJECT_DIR$/factory method/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flyweight/README.md" afterPath="$PROJECT_DIR$/flyweight/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interpreter/README.md" afterPath="$PROJECT_DIR$/interpreter/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iterator/README.md" afterPath="$PROJECT_DIR$/iterator/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mediator/README.md" afterPath="$PROJECT_DIR$/mediator/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memento/README.md" afterPath="$PROJECT_DIR$/memento/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observer/README.md" afterPath="$PROJECT_DIR$/observer/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype/README.md" afterPath="$PROJECT_DIR$/prototype/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy/README.md" afterPath="$PROJECT_DIR$/proxy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singleton/README.md" afterPath="$PROJECT_DIR$/singleton/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state/README.md" afterPath="$PROJECT_DIR$/state/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strategy/README.md" afterPath="$PROJECT_DIR$/strategy/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template method/README.md" afterPath="$PROJECT_DIR$/template method/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,19 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iterator/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="660">
-                <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mediator/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -116,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template method/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -130,11 +96,24 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/observer/README.md">
+        <entry file="file://$PROJECT_DIR$/visitor/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="615">
-                <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <first_editor relative-caret-position="414">
+                <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -160,7 +139,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="675">
-                <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -220,6 +199,8 @@
         <option value="$PROJECT_DIR$/state/README.md" />
         <option value="$PROJECT_DIR$/strategy/README.md" />
         <option value="$PROJECT_DIR$/template method/README.md" />
+        <option value="$PROJECT_DIR$/visitor/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -372,6 +353,11 @@
               <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="template method" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="js_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -420,12 +406,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519224826454</updated>
       <workItem from="1519224827763" duration="1261000" />
-      <workItem from="1519419319172" duration="6701000" />
+      <workItem from="1519419319172" duration="7106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7962000" />
+    <option name="totallyTimeSpent" value="8367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -437,7 +423,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -460,22 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/strategy/strategy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template method/template_method.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visitor/visitor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -855,7 +825,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="675">
-            <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -922,6 +892,28 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="585">
             <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visitor/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor />
