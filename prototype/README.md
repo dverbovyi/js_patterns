@@ -1,4 +1,5 @@
-    PROTOTYPE
+PROTOTYPE
+---------
     
 -Intent
 
@@ -8,17 +9,20 @@
 
 -Problem
 
-    Application "hard wires" the class of object to create in each "new" expression.
+   Application "hard wires" the class of object to create in each "new" expression.
     
 -Solution
 
-    Declare an abstract base class that specifies a pure virtual "clone" method, and, 
-    maintains a dictionary of all "cloneable" concrete derived classes. Any class that
-    needs a "polymorphic constructor" capability: derives itself from the abstract
-    base class, registers its prototypical instance, and implements the clone() 
-    operation.
+   Declare an abstract base class that specifies a pure virtual "clone" method, and, 
+   maintains a dictionary of all "cloneable" concrete derived classes. Any class that
+   needs a "polymorphic constructor" capability: derives itself from the abstract
+   base class, registers its prototypical instance, and implements the clone() 
+   operation.
     
-    The client then, instead of writing code that invokes the "new" operator on a hard-wired
-    class name, calls a "clone" operation on the abstract base class, supplying a string
-    or enumerated data type that designates the particular concrete derived class desired.  
-    
+   The client then, instead of writing code that invokes the "new" operator on a hard-wired
+   class name, calls a "clone" operation on the abstract base class, supplying a string
+   or enumerated data type that designates the particular concrete derived class desired. 
+   
+UML Diagram
+-----------
+![](../screenshots/prototype)      

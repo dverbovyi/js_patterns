@@ -1,4 +1,5 @@
-   FACTORY METHOD
+FACTORY METHOD
+--------------
    
  - Intent
 
@@ -32,7 +33,7 @@
     Factory Methods are routinely specified by an architectural frameworks, and then
     implemented by the user of the framework.
        
-    
+ 
     
  
  

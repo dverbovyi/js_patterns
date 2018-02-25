@@ -1,4 +1,5 @@
-    PROXY
+PROXY
+-----
     
 -Intent
 
@@ -8,16 +9,16 @@
 
 -Problem
 
-    You need to support resource-hungry objects, and you do not want to instantiate 
-    such objects unless and until they are actually requested by the client.
+   You need to support resource-hungry objects, and you do not want to instantiate 
+   such objects unless and until they are actually requested by the client.
     
 -Solution
 
-       Design a surrogate, or proxy, object that: instantiates the real object the 
-       first time the client makes a request of the proxy, remembers the identity of 
-       this real object, and forwards the instigating request to this real object. 
-       Then all subsequent requests are simply forwarded directly to the encapsulated 
-       real object. 
+   Design a surrogate, or proxy, object that: instantiates the real object the 
+   first time the client makes a request of the proxy, remembers the identity of 
+   this real object, and forwards the instigating request to this real object. 
+   Then all subsequent requests are simply forwarded directly to the encapsulated 
+   real object. 
 
 There are four common situations in which the Proxy pattern is applicable.
 
@@ -37,6 +38,8 @@ There are four common situations in which the Proxy pattern is applicable.
         - Checking that the real object is locked before it is accessed to ensure that
           no other object can change it.
 
-  
+UML Diagram
+-----------
+![](../screenshots/proxy)  
 
       
