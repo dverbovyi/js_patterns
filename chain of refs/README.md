@@ -40,4 +40,5 @@ CHAIN OF RESPONSIBILITY
    
 UML Diagram
 -----------
-![](../screenshots/chain)        
+
+![](../screenshots/chain.png)        
