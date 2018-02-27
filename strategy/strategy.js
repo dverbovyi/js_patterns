@@ -13,25 +13,25 @@ class Shipping {
 }
 
 class UPS {
-	calculate(strategy_package) {
+	calculate() {
 		return '$45.95';
 	}
 }
 
 class USPS {
-	calculate(strategy_package) {
+	calculate() {
 		return '$43.20';
 	}
 }
 
 class Fedex {
-	calculate(strategy_package) {
+	calculate() {
 		return '$43.20';
 	}
 }
 
 function run() {
-	const strategy_package = {from: '76712', to: '10012', weigth: 'lkg'};
+	const strategy_package = {from: '76712', to: '10012', weight: 'lkg'};
 
 	const ups = new UPS(),
 		usps = new USPS(),

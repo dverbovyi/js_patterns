@@ -41,12 +41,12 @@ function run() {
 		john = new Participant('John'),
 		paul = new Participant('Paul'),
 		ringo = new Participant('Ringo'),
-		chatroom = new Chatroom();
+		chatRoom = new Chatroom();
 
-	chatroom.register(yoko);
-	chatroom.register(john);
-	chatroom.register(paul);
-	chatroom.register(ringo);
+	chatRoom.register(yoko);
+	chatRoom.register(john);
+	chatRoom.register(paul);
+	chatRoom.register(ringo);
 
 	yoko.send("All you need is love.");
 	yoko.send("I love you John.");

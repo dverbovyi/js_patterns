@@ -1,4 +1,4 @@
-const datastore = {
+const dataStore = {
 	process: function () {
 		this.connect();
 		this.select();
@@ -14,7 +14,7 @@ function inherit(proto) {
 }
 
 function run() {
-	const mySql = inherit(datastore);
+	const mySql = inherit(dataStore);
 
 	mySql.connect = function () {
 		console.log('MySQL: connect step');

@@ -11,11 +11,12 @@ const FlyWeightFactory = (function () {
 
 	return {
 		get: (make, model, processor) => {
-			if (!flyweights[make + model]) {
-				flyweights[make + model] =
+			let makeAndModel = flyweights[make + model];
+			if (!makeAndModel) {
+				makeAndModel =
 					new Flyweight(make, model, processor);
 			}
-			return flyweights[make + model];
+			return makeAndModel;
 		},
 
 		getCount: () => {

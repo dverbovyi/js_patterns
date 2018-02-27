@@ -2,9 +2,9 @@ class Factory {
 	createEmployee(type) {
 		let employee;
 
-		if (type === 'Fulltime') {
+		if (type === 'FullTime') {
 			employee = new FullTime();
-		} else if (type === 'Parttime') {
+		} else if (type === 'PartTime') {
 			employee = new PartTime();
 		} else if (type === 'Temporary') {
 			employee = new Temporary();
@@ -48,8 +48,8 @@ class Contractor {
 function run() {
 	const factory = new Factory();
 
-	factory.createEmployee('Fulltime').say();
-	factory.createEmployee('Parttime').say();
+	factory.createEmployee('FullTime').say();
+	factory.createEmployee('PartTime').say();
 	factory.createEmployee('Temporary').say();
 	factory.createEmployee('Contractor').say();
 }

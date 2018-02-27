@@ -2,8 +2,8 @@ const Singleton = (function () {
 	let instance;
 
 	function createInstance() {
-		const object = new Object("I am the instance");
-		return object;
+		const objectInstance = new Object("I am the instance");
+		return objectInstance;
 	}
 
 	return {
