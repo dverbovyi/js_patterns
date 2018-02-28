@@ -22,7 +22,7 @@ INTERPRETER
   a class to represent each grammar rule. And since grammars are usually hierarchical 
   in structure, an inheritance hierarchy of rule classes maps nicely.
     
-  An abstract base class specifies the method ```interpret().``` Each concrete subclass 
+  An abstract base class specifies the method ```interpret()```. Each concrete subclass 
   implements  ```interpret()``` by accepting (as an argument) the current state of the 
   language stream, and adding its contribution to the problem solving process.
   
