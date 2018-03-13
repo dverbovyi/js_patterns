@@ -19,9 +19,9 @@ class AdvancedShipping {
 
 }
 
-class ShippingAdapter {
-	constructor(credentials) {
-		this.credentials = credentials;
+class ShippingAdapter extends Shipping{
+	constructor() {
+		super();
 		this.shipping = new AdvancedShipping();
 	}
 
@@ -35,8 +35,7 @@ class ShippingAdapter {
 
 function run() {
 	const shipping = new Shipping(),
-		credentials = {token: "30a8-6ee1"},
-		adapter = new ShippingAdapter(credentials);
+		adapter = new ShippingAdapter();
 
 	let cost = shipping.request();
 	console.log(`Old cost: ${cost}`);
