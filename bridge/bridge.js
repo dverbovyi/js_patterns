@@ -1,97 +1,55 @@
-class Gestures {
-	constructor(output) {
-		this.output = output;
+class DrawingAPI {
+	constructor(width, height, radius){
+		this.width = width;
+		this.height = height;
+		this.radius = radius;
 	}
 
-	tap() {
-		this.output.click();
+	drawCircle(width, height, radius){
+		console.log(`API circle at ${width}:${height}, radius ${radius}`);
 	}
+}
 
-	swipe() {
-		this.output.move();
-	}
-
-	pan() {
-		this.output.drag();
-	}
-
-	pinch() {
-		this.output.zoom();
+class DrawingAPI_1 extends DrawingAPI{
+	drawCircle(width, height, radius){
+		console.log(`API_1 circle at ${width}:${height}, radius ${radius}`);
 	}
 }
 
 
-class Mouse {
-	constructor(output) {
-		this.output = output;
-	}
-
-	click() {
-		this.output.click();
-	}
-
-	move() {
-		this.output.move();
-	}
-
-	wheel() {
-		this.output.zoom();
+class DrawingAPI_2 extends DrawingAPI{
+	drawCircle(width, height, radius){
+		console.log(`API_2 circle at ${width}:${height}, radius ${radius}`);
 	}
 }
 
 
-class Screen {
-	click() {
-		console.log('Screen select');
-	}
-
-	move() {
-		console.log('Screen move');
-	}
-
-	drag() {
-		console.log('Screen drag');
-	}
-
-	zoom() {
-		console.log('Screen zoom in');
+class Shape{
+	constructor(drawingAPI){
+		this.drawingAPI = drawingAPI;
 	}
 }
 
 
-class Audio {
-	click() {
-		console.log('Sound oink');
+class CircleShape extends Shape{
+	constructor(width, height, radius, drawingAPI){
+		super(drawingAPI);
+		this.width = width;
+		this.height = height;
+		this.radius = radius;
 	}
 
-	move() {
-		console.log('Sound waves');
-	}
-
-	drag() {
-		console.log('Sound screetch');
-	}
-
-	zoom() {
-		console.log('Sound volume up');
+	draw(){
+		this.drawingAPI.drawCircle(this.width, this.height, this.radius)
 	}
 }
 
 
-function run() {
-	const screen = new Screen(),
-		audio = new Audio(),
-		hand = new Gestures(screen),
-		mouse = new Mouse(audio);
+function run(){
 
-	hand.pan();
-	hand.pinch();
-	hand.swipe();
-	hand.tap();
+	const circle_API_1 = new CircleShape(1, 2, 3, new DrawingAPI_1());
+	circle_API_1.draw();
 
-	mouse.click();
-	mouse.move();
-	mouse.wheel();
+	const circle_API_2 = new CircleShape(5, 7, 11, new DrawingAPI_2());
+	circle_API_2.draw();
 }
-
-run();
