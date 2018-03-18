@@ -1,46 +1,54 @@
 class Factory {
 	createEmployee(type) {
-		let employee;
+		let ConcreteEmployee;
 
 		if (type === 'FullTime') {
-			employee = new FullTime();
+			ConcreteEmployee = FullTime;
 		} else if (type === 'PartTime') {
-			employee = new PartTime();
+			ConcreteEmployee = PartTime;
 		} else if (type === 'Temporary') {
-			employee = new Temporary();
+			ConcreteEmployee = Temporary;
 		} else if (type === 'Contractor') {
-			employee = new Contractor();
+			ConcreteEmployee = Contractor;
 		}
 
-		employee.type = type;
-
-		employee.say = function () {
-			console.log(`${this.type}: rate ${this.hourly}/hour`)
-		}
-		return employee;
+		return new ConcreteEmployee(type);
 	}
 }
 
-class FullTime {
-	constructor() {
+class IEmployee {
+	constructor(type) {
+		this.type = type;
+	}
+	say() {
+		console.log(`${this.type}: rate ${this.hourly}/hour`)
+	}
+}
+
+class FullTime extends IEmployee {
+	constructor(...args) {
+		super(...args);
 		this.hourly = '$12';
 	}
 }
 
-class PartTime {
-	constructor() {
+class PartTime extends IEmployee{
+	constructor(...args) {
+		super(...args);
 		this.hourly = '$6'
 	}
 }
 
-class Temporary {
-	constructor() {
+class Temporary extends IEmployee{
+	constructor(...args) {
+		super(...args)
 		this.hourly = '$10';
 	}
 }
 
-class Contractor {
-	constructor() {
+class Contractor extends IEmployee{
+	constructor(...args) {
+		super(...args);
 		this.hourly = '$15';
 	}
 }
