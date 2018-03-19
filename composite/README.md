@@ -30,8 +30,7 @@ COMPOSITE
    Child management methods [e.g. addChild(), removeChild()] should normally be
    defined in the Composite class. Unfortunately, the desire to treat Primitives
    and Composites uniformly requires that these methods be moved to the abstract 
-   Component class. /*See the 'Opinions' section below for a discussion of 'safety'
-   versus 'transparency' issues.*/ where is this section?
+   Component class.
    
 UML Diagram
 -----------

@@ -34,7 +34,9 @@ FACTORY METHOD
     implemented by the user of the framework.
 
 
-    UML ?
+UML Diagram
+-----------
+![](../screenshots/factory_method.png)   
        
  
     
