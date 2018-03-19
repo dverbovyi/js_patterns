@@ -32,6 +32,9 @@ FACTORY METHOD
     Factory Method is similar to Abstract Factory but without the emphasis on families.
     Factory Methods are routinely specified by an architectural frameworks, and then
     implemented by the user of the framework.
+
+
+    UML ?
        
  
     
