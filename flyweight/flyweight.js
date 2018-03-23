@@ -36,6 +36,7 @@ class ComputerCollection {
 	add(make, model, processor, memory, tag) {
 		this.computers[tag] = new Computer(make, model, processor, memory, tag);
 		this.count++;
+		console.log(this.computers);
 	}
 
 	get(tag) {
@@ -49,13 +50,12 @@ class ComputerCollection {
 
 class Computer {
 	constructor(make, model, processor, memory, tag) {
-		this.make = make;
-		this.model = model;
-		this.processor = processor;
+		this.flyweight = FlyWeightFactory.get(make, model, processor);
 		this.memory = memory;
 		this.tag = tag;
 	}
 }
+
 
 function run() {
 	const computers = new ComputerCollection();
@@ -71,3 +71,5 @@ function run() {
 	console.log(`Computers ${computers.getCount()}`);
 	console.log(`Flyweights ${FlyWeightFactory.getCount()}`);
 }
+
+run();
