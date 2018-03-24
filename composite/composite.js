@@ -1,57 +1,68 @@
-class Node {
-	constructor(name) {
-		this.name = name;
-		this.children = [];
-	}
-
-	add(child) {
-		this.children.push(child);
-	}
-
-	remove(child) {
-		let length = this.children.length;
-		for (let i = 0; i < length; i++) {
-			if (this.children[i] === child) {
-				this.children.splice(i, 1);
-				return;
-			}
-		}
-	}
-
-	getChild(i) {
-		return this.children[i];
-	}
-
-	hasChildren() {
-		return this.children.length > 0;
+class Unit {
+	getStrength() {
+		return 0;
 	}
 }
 
-function traverse(indent, node) {
-	console.log(Array(indent++).join("--") + node.name);
+class Archer extends Unit {
+	getStrength() {
+		return 1;
+	}
+}
 
-	for (let i = 0, length = node.children.length; i < length; i++) {
-		traverse(indent, node.getChild(i));
+class Infantryman extends Unit {
+	getStrength() {
+		return 2;
+	}
+}
+
+class Horseman extends Unit {
+	getStrength() {
+		return 3;
+	}
+}
+
+class CompositeUnit extends Unit {
+	constructor() {
+		super();
+		this.legion = [];
+		this.total = 0;
+	}
+
+	addUnit(newUnit) {
+		this.legion.push(newUnit);
+	}
+
+	createLegion() {
+
+		for (let infantrymanQuantity = 0; infantrymanQuantity < 300; infantrymanQuantity++) {
+			this.addUnit(new Infantryman());
+		}
+
+		for (let archerQuantity = 0; archerQuantity < 200; archerQuantity++) {
+			this.addUnit(new Archer());
+		}
+
+		for (let horsemenQuantity = 0; horsemenQuantity < 100; horsemenQuantity++) {
+			this.addUnit(new Horseman());
+		}
+
+		return this.legion;
+	}
+
+	getTotalStrength() {
+		this.legion.forEach(unit => {
+			this.total += unit.getStrength();
+		});
+		return this.total
 	}
 }
 
 function run() {
-	const tree = new Node("root"),
-		left = new Node("left"),
-		right = new Node("right"),
-		leftleft = new Node("leftleft"),
-		leftright = new Node("leftright"),
-		rightleft = new Node("rightleft"),
-		rightright = new Node("rightright");
+	const compositeUnit = new CompositeUnit();
+	const legion = compositeUnit.createLegion();
+	const legionStrength = compositeUnit.getTotalStrength();
 
-	tree.add(left);
-	tree.add(right);
-
-	left.add(leftleft);
-	left.add(leftright);
-
-	right.add(rightleft);
-	right.add(rightright);
-
-	traverse(1, tree);
+	console.log(`Legion members: ${legion}`);
+	console.log(`Legion total strength: ${legionStrength}`);
 }
